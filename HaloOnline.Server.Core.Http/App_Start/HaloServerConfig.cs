@@ -49,10 +49,11 @@ namespace HaloOnline.Server.Core.Http
                 };
                 HaloUser testUser2 = new HaloUser
                 {
-                    UserName = "456"
+                    UserName = "test"
                 };
+
                 userManager.CreateAsync(testUser1, "123").Wait();
-                userManager.CreateAsync(testUser2, "456").Wait();
+                userManager.CreateAsync(testUser2, "test").Wait();
 
                 UserBaseData testUser1Data = new UserBaseData
                 {
