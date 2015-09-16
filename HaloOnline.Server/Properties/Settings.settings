@@ -1,0 +1,32 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HaloOnline.Server.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DispatcherPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">44300</Value>
+    </Setting>
+    <Setting Name="EndpointPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">11705</Value>
+    </Setting>
+    <Setting Name="LogPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">27027</Value>
+    </Setting>
+    <Setting Name="ClientPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">11774</Value>
+    </Setting>
+    <Setting Name="AppPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">11700</Value>
+    </Setting>
+    <Setting Name="EndpointHostname" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="HaloDbContext" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=|DataDirectory|halodb.sqlite&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SQLite.EF6&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=|DataDirectory|halodb.sqlite</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
